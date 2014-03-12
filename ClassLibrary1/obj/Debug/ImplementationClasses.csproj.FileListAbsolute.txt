@@ -1,0 +1,10 @@
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\obj\Debug\ImplementationClasses.csprojResolveAssemblyReference.cache
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\ImplementationClasses.dll
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\ImplementationClasses.pdb
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\obj\Debug\ImplementationClasses.dll
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\obj\Debug\ImplementationClasses.pdb
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\ImplementationClasses.dll.config
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.dll
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.xml
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,17 @@
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\VerseMemorizerWinForm.exe.config
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.csprojResolveAssemblyReference.cache
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.Form1.resources
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.Properties.Resources.resources
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.csproj.GenerateResource.Cache
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\VerseMemorizerWinForm.exe
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\VerseMemorizerWinForm.pdb
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\Interfaces.dll
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\Interfaces.pdb
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.exe
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.pdb
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\ImplementationClasses.dll
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\ImplementationClasses.pdb
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.dll
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.xml
+c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.SqlServer.xml
