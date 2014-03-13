@@ -10,3 +10,15 @@ c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\Inter
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\Interfaces\bin\Debug\ImplementationClasses.pdb
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\Interfaces\bin\Debug\EntityFramework.xml
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\Interfaces.dll.config
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\ImplementationClasses.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\ImplementationClasses.pdb
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Interfaces\obj\Debug\Interfaces.pdb

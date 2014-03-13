@@ -8,3 +8,13 @@ c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\Class
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.xml
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\ImplementationClasses.dll.config
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\ImplementationClasses.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\ImplementationClasses.pdb
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\obj\Debug\ImplementationClasses.csprojResolveAssemblyReference.cache
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\obj\Debug\ImplementationClasses.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\ClassLibrary1\obj\Debug\ImplementationClasses.pdb

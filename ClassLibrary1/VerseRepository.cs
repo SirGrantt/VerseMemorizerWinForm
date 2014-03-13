@@ -30,10 +30,19 @@ namespace ImplementationClasses
 
         public bool Update(Verse verse)
         {
-           if (_verseStorage.Contains(verse))
-           {
-               
-           }
+            FindVerse(verse);
+            if (_verseStorage.Contains(verse))
+            {
+                var verseChanges = new Verse();
+                verse.Book = verseChanges.Book;
+                verse.Chapter = verseChanges.Chapter;
+                verse.Translation = verseChanges.Translation;
+                verse.VerseNumber = verseChanges.VerseNumber;
+                verse.VerseText = verseChanges.VerseText;
+                return true;
+
+            }
+            else return false;
         }
     }
 }

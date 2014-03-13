@@ -15,3 +15,20 @@ c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\Verse
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.SqlServer.dll
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.xml
 c:\users\grant\documents\visual studio 2013\Projects\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\VerseMemorizerWinForm.exe.config
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.exe
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.pdb
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\VerseMemorizerWinForm.exe
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\VerseMemorizerWinForm.pdb
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\ImplementationClasses.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\Interfaces.dll
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\ImplementationClasses.pdb
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\Interfaces.pdb
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.csprojResolveAssemblyReference.cache
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.Form1.resources
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.Properties.Resources.resources
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\VerseMemorizerWinForm\obj\Debug\VerseMemorizerWinForm.csproj.GenerateResource.Cache

@@ -103,13 +103,15 @@ namespace Implementations.Test
         [TestInitialize]
         public void WhenUpdatingAVerse()
         {
+            _verseRepository.Update(ExistingVerse);
             _resultOfUpdate = _verseRepository.Update(ExistingVerse);
         }
 
         [TestMethod]
-        public void ItShouldReturnTrue()
+        public void ItShouldUpdateTheVerseAndReturnTrue()
         {
             Assert.IsTrue(_resultOfUpdate);
+     
         }
     }
 
