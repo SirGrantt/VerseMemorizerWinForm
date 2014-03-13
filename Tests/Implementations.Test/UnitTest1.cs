@@ -99,12 +99,13 @@ namespace Implementations.Test
     public class GivenAVerseThatDoesAlreadyExistWhenUpdatingAVerse : ExistingVerseContext
     {
         bool _resultOfUpdate;
+        Verse _VerseChanges = new Verse { Book = EBook.Genesis, Chapter = 1, VerseText = "In the beginning..", VerseNumber = 1, Translation = "NIV" };
 
         [TestInitialize]
         public void WhenUpdatingAVerse()
         {
-            _verseRepository.Update(ExistingVerse);
-            _resultOfUpdate = _verseRepository.Update(ExistingVerse);
+            _verseRepository.Update(ExistingVerse, _VerseChanges);
+            _resultOfUpdate = _verseRepository.Update(ExistingVerse, _VerseChanges);
         }
 
         [TestMethod]
@@ -112,6 +113,12 @@ namespace Implementations.Test
         {
             Assert.IsTrue(_resultOfUpdate);
      
+        }
+
+    [TestMethod]
+        public void ItShouldUpdateTheBook()
+        {
+            Assert.AreEqual(ExistingVerse, _VerseChanges);
         }
     }
 

@@ -28,12 +28,12 @@ namespace ImplementationClasses
 
         }
 
-        public bool Update(Verse verse)
+        public bool Update(Verse verse, Verse verseChanges)
         {
             FindVerse(verse);
             if (_verseStorage.Contains(verse))
             {
-                var verseChanges = new Verse();
+
                 verse.Book = verseChanges.Book;
                 verse.Chapter = verseChanges.Chapter;
                 verse.Translation = verseChanges.Translation;
