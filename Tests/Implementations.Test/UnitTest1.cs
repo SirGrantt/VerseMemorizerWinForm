@@ -122,4 +122,29 @@ namespace Implementations.Test
         }
     }
 
+    [TestClass]
+    public class GivenAVerseThatDoesAlreadyExistWhenRemovingAVerse : ExistingVerseContext
+    {
+        bool _resultOfRemove;
+
+        [TestInitialize]
+        public void WhenAddingAVerse()
+        {
+            _resultOfRemove = _verseRepository.Remove(ExistingVerse);
+        }
+
+        [TestMethod]
+        public void ItShouldReturnTrueAfterRemove()
+        {
+            Assert.IsTrue(_resultOfRemove);
+        }
+
+        [TestMethod]
+        public void ItShouldRemoveThatVerseFromTheList()
+        {
+            Assert.IsNull(_verseRepository.FindVerse(ExistingVerse));
+        }
+
+    }
+
 }

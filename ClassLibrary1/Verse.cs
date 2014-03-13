@@ -13,6 +13,7 @@ namespace ImplementationClasses
         public string Translation { get; set; }
         public string VerseText { get; set; }
         public int VerseNumber { get; set; }
+        public int ID { get; set; }
     }
 
     public enum EBook

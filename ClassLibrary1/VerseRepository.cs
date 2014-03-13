@@ -17,9 +17,16 @@ namespace ImplementationClasses
             {
                 return false;
             }
+            
             _verseStorage.Add(verse);
             return true;
         }
+
+        //public int AssignID(Verse verse)
+        //{
+        //    verse.ID =
+        //    return verse.ID;
+        //}
 
         public Verse FindVerse(Verse verse)
         {
@@ -30,17 +37,35 @@ namespace ImplementationClasses
 
         public bool Update(Verse verse, Verse verseChanges)
         {
-            FindVerse(verse);
+            //FindVerse(verse);
+            //verse.Book = verseChanges.Book;
+            //return verse;
+
+            //FindVerse(verse);
+            //verse = _verseStorage.FirstOrDefault(x => x.Book == verse.Book);
+            //verse.Book = verseChanges.Book;
+
             if (_verseStorage.Contains(verse))
             {
+                verse = verseChanges;
 
-                verse.Book = verseChanges.Book;
-                verse.Chapter = verseChanges.Chapter;
-                verse.Translation = verseChanges.Translation;
-                verse.VerseNumber = verseChanges.VerseNumber;
-                verse.VerseText = verseChanges.VerseText;
+                //verse.Book = verseChanges.Book;
+                //verse.Chapter = verseChanges.Chapter;
+                //verse.Translation = verseChanges.Translation;
+                //verse.VerseNumber = verseChanges.VerseNumber;
+                //verse.VerseText = verseChanges.VerseText;
                 return true;
 
+            }
+            else return false; 
+        }
+
+        public bool Remove(Verse verse)
+        {
+            if (_verseStorage.Contains(verse))
+            {
+                _verseStorage.Remove(verse);
+                return true;
             }
             else return false;
         }
