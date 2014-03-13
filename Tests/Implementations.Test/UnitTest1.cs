@@ -107,9 +107,9 @@ namespace Implementations.Test
         }
 
         [TestMethod]
-        public void ItShouldReturnFalse()
+        public void ItShouldReturnTrue()
         {
-            Assert.IsFalse(_resultOfUpdate);
+            Assert.IsTrue(_resultOfUpdate);
         }
     }
 

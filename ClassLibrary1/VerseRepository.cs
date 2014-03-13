@@ -24,10 +24,16 @@ namespace ImplementationClasses
         public Verse FindVerse(Verse verse)
         {
             return _verseStorage.SingleOrDefault(x => x.Book == verse.Book && x.VerseText == verse.VerseText && x.VerseNumber == verse.VerseNumber
-                && x.Chapter == verse.Chapter);
+                && x.Chapter == verse.Chapter && x.Translation == verse.Translation);
 
         }
 
-        public Verse
+        public bool Update(Verse verse)
+        {
+           if (_verseStorage.Contains(verse))
+           {
+               
+           }
+        }
     }
 }
