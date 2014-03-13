@@ -17,16 +17,17 @@ namespace ImplementationClasses
             {
                 return false;
             }
-            
+
             _verseStorage.Add(verse);
+            AssignID(verse);
             return true;
         }
 
-        //public int AssignID(Verse verse)
-        //{
-        //    verse.ID =
-        //    return verse.ID;
-        //}
+        public int AssignID(Verse verse)
+        {
+            verse.ID = _verseStorage.Max(x=> x.ID + 1);
+            return verse.ID;
+        }
 
         public Verse FindVerse(Verse verse)
         {
@@ -35,8 +36,19 @@ namespace ImplementationClasses
 
         }
 
-        public bool Update(Verse verse, Verse verseChanges)
+        public void Update(Verse verse)
         {
+            _verseStorage.Find(x => x.ID == verse.ID);
+            
+            if (_verseStorage.Find(x => x.ID == verse.ID) != null)
+            {
+                verse.Book = verse.Book;
+                verse.Chapter = verse.Chapter;
+                verse.Translation = verse.Translation;
+                verse.VerseNumber = verse.VerseNumber;
+                verse.VerseText = verse.VerseText;
+            }
+            
             //FindVerse(verse);
             //verse.Book = verseChanges.Book;
             //return verse;
@@ -45,19 +57,19 @@ namespace ImplementationClasses
             //verse = _verseStorage.FirstOrDefault(x => x.Book == verse.Book);
             //verse.Book = verseChanges.Book;
 
-            if (_verseStorage.Contains(verse))
-            {
-                verse = verseChanges;
+            //if (_verseStorage.Contains(verse))
+            //{
+            //    verse = verseChanges;
 
-                //verse.Book = verseChanges.Book;
-                //verse.Chapter = verseChanges.Chapter;
-                //verse.Translation = verseChanges.Translation;
-                //verse.VerseNumber = verseChanges.VerseNumber;
-                //verse.VerseText = verseChanges.VerseText;
-                return true;
+            //    verse.Book = verseChanges.Book;
+            //    verse.Chapter = verseChanges.Chapter;
+            //    verse.Translation = verseChanges.Translation;
+            //    verse.VerseNumber = verseChanges.VerseNumber;
+            //    verse.VerseText = verseChanges.VerseText;
+            //    return true;
 
-            }
-            else return false; 
+            //}
+            //else return false; 
         }
 
         public bool Remove(Verse verse)

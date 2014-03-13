@@ -26,3 +26,5 @@ C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Tests\Implementations.Test
 C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Tests\Implementations.Test\obj\Debug\Implementations.Test.csprojResolveAssemblyReference.cache
 C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Tests\Implementations.Test\obj\Debug\Implementations.Test.dll
 C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Tests\Implementations.Test\obj\Debug\Implementations.Test.pdb
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Tests\Implementations.Test\bin\Debug\VerseMemorizerWinForm.exe
+C:\Users\Grant\Documents\GitHub\VerseMemorizerWinForm\Tests\Implementations.Test\bin\Debug\VerseMemorizerWinForm.pdb

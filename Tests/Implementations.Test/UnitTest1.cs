@@ -93,32 +93,39 @@ namespace Implementations.Test
         {
             Assert.IsFalse(_resultOfAdd);
         }
+
+        [TestMethod]
+        public void ItShouldHaveAnID()
+        {
+            Assert.AreEqual(ExistingVerse.ID, 1);
+        }
     }
 
     [TestClass]
     public class GivenAVerseThatDoesAlreadyExistWhenUpdatingAVerse : ExistingVerseContext
     {
-        bool _resultOfUpdate;
-        Verse _VerseChanges = new Verse { Book = EBook.Genesis, Chapter = 1, VerseText = "In the beginning..", VerseNumber = 1, Translation = "NIV" };
 
         [TestInitialize]
         public void WhenUpdatingAVerse()
         {
-            _verseRepository.Update(ExistingVerse, _VerseChanges);
-            _resultOfUpdate = _verseRepository.Update(ExistingVerse, _VerseChanges);
+            //_verseRepository.Update(ExistingVerse, _VerseChanges);
+            //_resultOfUpdate = _verseRepository.Update(ExistingVerse, _VerseChanges);
+            ExistingVerse.Book = EBook.Genesis;
+            ExistingVerse.Chapter = 1;
+            _verseRepository.Update(ExistingVerse);
         }
 
         [TestMethod]
-        public void ItShouldUpdateTheVerseAndReturnTrue()
+        public void ItShouldUpdateTheVersesInformation()
         {
-            Assert.IsTrue(_resultOfUpdate);
+            Assert.AreEqual(ExistingVerse.Book, EBook.Genesis);
      
         }
 
-    [TestMethod]
-        public void ItShouldUpdateTheBook()
+        [TestMethod]
+        public void ItShouldUpdateTheBooksChapterIfGiven()
         {
-            Assert.AreEqual(ExistingVerse, _VerseChanges);
+            Assert.AreEqual(ExistingVerse.Chapter, 1);
         }
     }
 

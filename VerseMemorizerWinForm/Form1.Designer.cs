@@ -41,11 +41,13 @@
             this.labelVNumber = new System.Windows.Forms.Label();
             this.labelVerse = new System.Windows.Forms.Label();
             this.btnAddVerse = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbChpt
             // 
-            this.tbChpt.Location = new System.Drawing.Point(107, 116);
+            this.tbChpt.Location = new System.Drawing.Point(107, 70);
             this.tbChpt.Name = "tbChpt";
             this.tbChpt.Size = new System.Drawing.Size(88, 20);
             this.tbChpt.TabIndex = 0;
@@ -53,21 +55,21 @@
             // 
             // tbBook
             // 
-            this.tbBook.Location = new System.Drawing.Point(12, 116);
+            this.tbBook.Location = new System.Drawing.Point(12, 70);
             this.tbBook.Name = "tbBook";
             this.tbBook.Size = new System.Drawing.Size(89, 20);
             this.tbBook.TabIndex = 1;
             // 
             // tbCategory
             // 
-            this.tbCategory.Location = new System.Drawing.Point(283, 116);
+            this.tbCategory.Location = new System.Drawing.Point(278, 70);
             this.tbCategory.Name = "tbCategory";
             this.tbCategory.Size = new System.Drawing.Size(100, 20);
             this.tbCategory.TabIndex = 2;
             // 
             // tbTranslation
             // 
-            this.tbTranslation.Location = new System.Drawing.Point(389, 116);
+            this.tbTranslation.Location = new System.Drawing.Point(384, 70);
             this.tbTranslation.Name = "tbTranslation";
             this.tbTranslation.Size = new System.Drawing.Size(100, 20);
             this.tbTranslation.TabIndex = 3;
@@ -75,7 +77,7 @@
             // labelBook
             // 
             this.labelBook.AutoSize = true;
-            this.labelBook.Location = new System.Drawing.Point(12, 100);
+            this.labelBook.Location = new System.Drawing.Point(12, 54);
             this.labelBook.Name = "labelBook";
             this.labelBook.Size = new System.Drawing.Size(32, 13);
             this.labelBook.TabIndex = 4;
@@ -84,7 +86,7 @@
             // labelChpt
             // 
             this.labelChpt.AutoSize = true;
-            this.labelChpt.Location = new System.Drawing.Point(104, 100);
+            this.labelChpt.Location = new System.Drawing.Point(104, 54);
             this.labelChpt.Name = "labelChpt";
             this.labelChpt.Size = new System.Drawing.Size(44, 13);
             this.labelChpt.TabIndex = 5;
@@ -93,7 +95,7 @@
             // labelCategory
             // 
             this.labelCategory.AutoSize = true;
-            this.labelCategory.Location = new System.Drawing.Point(278, 100);
+            this.labelCategory.Location = new System.Drawing.Point(278, 54);
             this.labelCategory.Name = "labelCategory";
             this.labelCategory.Size = new System.Drawing.Size(49, 13);
             this.labelCategory.TabIndex = 6;
@@ -102,7 +104,7 @@
             // labelTranslation
             // 
             this.labelTranslation.AutoSize = true;
-            this.labelTranslation.Location = new System.Drawing.Point(386, 100);
+            this.labelTranslation.Location = new System.Drawing.Point(384, 54);
             this.labelTranslation.Name = "labelTranslation";
             this.labelTranslation.Size = new System.Drawing.Size(59, 13);
             this.labelTranslation.TabIndex = 7;
@@ -110,7 +112,7 @@
             // 
             // tbVerse
             // 
-            this.tbVerse.Location = new System.Drawing.Point(41, 168);
+            this.tbVerse.Location = new System.Drawing.Point(41, 109);
             this.tbVerse.Name = "tbVerse";
             this.tbVerse.Size = new System.Drawing.Size(418, 153);
             this.tbVerse.TabIndex = 9;
@@ -118,7 +120,7 @@
             // 
             // tbVNumber
             // 
-            this.tbVNumber.Location = new System.Drawing.Point(201, 116);
+            this.tbVNumber.Location = new System.Drawing.Point(201, 70);
             this.tbVNumber.Name = "tbVNumber";
             this.tbVNumber.Size = new System.Drawing.Size(71, 20);
             this.tbVNumber.TabIndex = 10;
@@ -126,7 +128,7 @@
             // labelVNumber
             // 
             this.labelVNumber.AutoSize = true;
-            this.labelVNumber.Location = new System.Drawing.Point(198, 100);
+            this.labelVNumber.Location = new System.Drawing.Point(198, 54);
             this.labelVNumber.Name = "labelVNumber";
             this.labelVNumber.Size = new System.Drawing.Size(74, 13);
             this.labelVNumber.TabIndex = 11;
@@ -135,7 +137,7 @@
             // labelVerse
             // 
             this.labelVerse.AutoSize = true;
-            this.labelVerse.Location = new System.Drawing.Point(38, 152);
+            this.labelVerse.Location = new System.Drawing.Point(38, 93);
             this.labelVerse.Name = "labelVerse";
             this.labelVerse.Size = new System.Drawing.Size(34, 13);
             this.labelVerse.TabIndex = 12;
@@ -143,18 +145,38 @@
             // 
             // btnAddVerse
             // 
-            this.btnAddVerse.Location = new System.Drawing.Point(41, 390);
+            this.btnAddVerse.Location = new System.Drawing.Point(252, 302);
             this.btnAddVerse.Name = "btnAddVerse";
             this.btnAddVerse.Size = new System.Drawing.Size(75, 23);
             this.btnAddVerse.TabIndex = 13;
             this.btnAddVerse.Text = "Add Verse";
             this.btnAddVerse.UseVisualStyleBackColor = true;
             // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(333, 302);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(88, 23);
+            this.btnUpdate.TabIndex = 14;
+            this.btnUpdate.Text = "Update Verse";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            // 
+            // btnRemove
+            // 
+            this.btnRemove.Location = new System.Drawing.Point(427, 302);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(89, 23);
+            this.btnRemove.TabIndex = 15;
+            this.btnRemove.Text = "Remove Verse";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(538, 512);
+            this.ClientSize = new System.Drawing.Size(538, 367);
+            this.Controls.Add(this.btnRemove);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAddVerse);
             this.Controls.Add(this.labelVerse);
             this.Controls.Add(this.labelVNumber);
@@ -190,6 +212,8 @@
         private System.Windows.Forms.Label labelVNumber;
         private System.Windows.Forms.Label labelVerse;
         private System.Windows.Forms.Button btnAddVerse;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnRemove;
     }
 }
 
