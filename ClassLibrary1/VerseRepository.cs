@@ -39,7 +39,8 @@ namespace ImplementationClasses
         public void Update(Verse verse)
         {
             _verseStorage.Find(x => x.ID == verse.ID);
-            
+
+
             if (_verseStorage.Find(x => x.ID == verse.ID) != null)
             {
                 verse.Book = verse.Book;
@@ -48,28 +49,7 @@ namespace ImplementationClasses
                 verse.VerseNumber = verse.VerseNumber;
                 verse.VerseText = verse.VerseText;
             }
-            
-            //FindVerse(verse);
-            //verse.Book = verseChanges.Book;
-            //return verse;
-
-            //FindVerse(verse);
-            //verse = _verseStorage.FirstOrDefault(x => x.Book == verse.Book);
-            //verse.Book = verseChanges.Book;
-
-            //if (_verseStorage.Contains(verse))
-            //{
-            //    verse = verseChanges;
-
-            //    verse.Book = verseChanges.Book;
-            //    verse.Chapter = verseChanges.Chapter;
-            //    verse.Translation = verseChanges.Translation;
-            //    verse.VerseNumber = verseChanges.VerseNumber;
-            //    verse.VerseText = verseChanges.VerseText;
-            //    return true;
-
-            //}
-            //else return false; 
+            else return;
         }
 
         public bool Remove(Verse verse)

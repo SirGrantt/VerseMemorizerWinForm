@@ -110,9 +110,10 @@ namespace Implementations.Test
         {
             //_verseRepository.Update(ExistingVerse, _VerseChanges);
             //_resultOfUpdate = _verseRepository.Update(ExistingVerse, _VerseChanges);
-            ExistingVerse.Book = EBook.Genesis;
-            ExistingVerse.Chapter = 1;
-            _verseRepository.Update(ExistingVerse);
+            Verse ExistingVerseUpdated = ExistingVerse;
+            ExistingVerseUpdated.Book = EBook.Genesis;
+            ExistingVerseUpdated.Chapter = 1;
+            _verseRepository.Update(ExistingVerseUpdated);
         }
 
         [TestMethod]
